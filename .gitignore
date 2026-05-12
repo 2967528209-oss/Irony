@@ -1,44 +1,55 @@
-# Xcode
-#
-# gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+# Dependencies
+node_modules/
+.pnpm-store/
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
 
-## User settings
-xcuserdata/
+# Build output
+dist/
+build/
+.next/
+out/
+*.egg-info/
 
-## Obj-C/Swift specific
-*.hmap
+# Environment variables
+.env
+.env.local
+.env.*.local
+!.env.example
 
-## App packaging
-*.ipa
-*.dSYM.zip
-*.dSYM
+# IDE & OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/settings.json
+.idea/
 
-# CocoaPods
-#
-# We recommend against adding the Pods directory to your .gitignore. However
-# you should judge for yourself, the pros and cons are mentioned at:
-# https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
-#
-# Pods/
-#
-# Add this line if you want to avoid checking in source code from the Xcode workspace
-# *.xcworkspace
+# Cursor - override global ignore for skills only
+!.cursor/
+.cursor/*
+!.cursor/skills/
+!.cursor/skills/**
 
-# Carthage
-#
-# Add this line if you want to avoid checking in source code from Carthage dependencies.
-# Carthage/Checkouts
+# Ignore ephemeral Cursor data
+.cursor/agent-transcripts/
+.cursor/rules/
 
-Carthage/Build/
+# Testing & coverage
+coverage/
+.nyc_output/
+htmlcov/
+.pytest_cache/
 
-# fastlane
-#
-# It is recommended to not store the screenshots in the git repo.
-# Instead, use fastlane to re-generate the screenshots whenever they are needed.
-# For more information about the recommended setup visit:
-# https://docs.fastlane.tools/best-practices/source-control/#source-control
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
 
-fastlane/report.xml
-fastlane/Preview.html
-fastlane/screenshots/**/*.png
-fastlane/test_output
+# Misc
+*.tgz
+*.tar.gz
+.vercel/
