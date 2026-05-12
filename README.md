@@ -54,14 +54,14 @@
 - 能封装通用的 LLM 调用层
 
 ### 知识清单
-- [ ] OpenAI API（Chat Completions, Streaming, Function Calling）
-- [ ] Anthropic API（Messages API, Tool Use, System Prompt）
-- [ ] 本地模型部署与调用（Ollama, vLLM）
-- [ ] Streaming 处理（SSE, ReadableStream, 前端渲染）
-- [ ] Token 计算与上下文窗口管理
-- [ ] 多模型统一抽象层设计
-- [ ] 错误处理与重试策略（Rate Limit, Timeout, Fallback）
-- [ ] Vercel AI SDK 使用（useChat, useCompletion, streamText）
+- [x] OpenAI API（Chat Completions, Streaming, Function Calling）
+- [x] Anthropic API（Messages API, Tool Use, System Prompt）
+- [x] 本地模型部署与调用（Ollama, vLLM）
+- [x] Streaming 处理（SSE, ReadableStream, 前端渲染）
+- [x] Token 计算与上下文窗口管理
+- [x] 多模型统一抽象层设计
+- [x] 错误处理与重试策略（Rate Limit, Timeout, Fallback）
+- [x] Vercel AI SDK 使用（useChat, useCompletion, streamText）
 
 ### 实践项目
 1. 封装一个多模型统一调用 SDK（支持 OpenAI / Claude / 本地模型）
@@ -234,6 +234,7 @@ AI/
 |------|------|----------|------|
 | 2026-05-12 | 启动 | 建立学习路径 | 聚焦 AI 应用开发 |
 | 2026-05-12 | 阶段1 | Skills 体系设计（10 个全局 Skill） | 覆盖全栈开发全链路 |
+| 2026-05-12 | 阶段2 | LLM API 集成知识清单 + 架构总览 | DeepSeek 实践 + 8 篇笔记 |
 
 ---
 
