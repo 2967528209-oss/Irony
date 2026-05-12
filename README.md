@@ -28,16 +28,16 @@
 - 形成"需求 → Prompt → 代码 → 验证"的闭环
 
 ### 知识清单
-- [ ] Cursor Rules 体系设计（项目级 / 全局级 / 文件级）
-- [ ] 结构化 Prompt 驱动开发（需求描述 → 代码生成 → 迭代优化）
-- [ ] 上下文管理策略（@file, @folder, @web, @docs）
-- [ ] AI Coding 最佳实践（任务拆分, 增量开发, 验证闭环）
+- [x] Cursor Rules 体系设计（项目级 / 全局级 / 文件级）→ 以 Skills 体系实现（10 个 Skill）
+- [x] 结构化 Prompt 驱动开发（需求描述 → 代码生成 → 迭代优化）→ ai-coding-workflow Skill
+- [x] 上下文管理策略（@file, @folder, @web, @docs）→ ai-coding-workflow Skill
+- [x] AI Coding 最佳实践（任务拆分, 增量开发, 验证闭环）→ ai-coding-workflow Skill
 - [ ] MCP（Model Context Protocol）集成与使用
-- [ ] 多模型切换策略（不同任务选择不同模型）
+- [x] 多模型切换策略（不同任务选择不同模型）→ ai-coding-workflow Skill
 
 ### 实践项目
-1. 设计一套项目 Cursor Rules 模板（覆盖全栈开发场景）
-2. 用纯 AI Coding 方式从 0 构建一个 CRUD 应用（记录全过程）
+1. ~~设计一套项目 Cursor Rules 模板（覆盖全栈开发场景）~~ ✅ 已完成（`.cursor/skills/` 10 个 Skill）
+2. 用纯 AI Coding 方式从 0 构建一个 CRUD 应用（记录全过程）⬅️ 下一步
 3. 配置并使用 MCP 工具扩展 Cursor 能力
 
 ### 交付标准
@@ -233,6 +233,7 @@ AI/
 | 日期 | 阶段 | 完成内容 | 备注 |
 |------|------|----------|------|
 | 2026-05-12 | 启动 | 建立学习路径 | 聚焦 AI 应用开发 |
+| 2026-05-12 | 阶段1 | Skills 体系设计（10 个全局 Skill） | 覆盖全栈开发全链路 |
 
 ---
 
