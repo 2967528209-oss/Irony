@@ -28,15 +28,10 @@ Thumbs.db
 .vscode/settings.json
 .idea/
 
-# Cursor - override global ignore for skills only
+# Cursor - override global gitignore, only track skills/
 !.cursor/
 .cursor/*
 !.cursor/skills/
-!.cursor/skills/**
-
-# Ignore ephemeral Cursor data
-.cursor/agent-transcripts/
-.cursor/rules/
 
 # Testing & coverage
 coverage/
