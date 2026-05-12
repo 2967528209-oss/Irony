@@ -32,7 +32,7 @@
 - [x] 结构化 Prompt 驱动开发（需求描述 → 代码生成 → 迭代优化）→ ai-coding-workflow Skill
 - [x] 上下文管理策略（@file, @folder, @web, @docs）→ ai-coding-workflow Skill
 - [x] AI Coding 最佳实践（任务拆分, 增量开发, 验证闭环）→ ai-coding-workflow Skill
-- [ ] MCP（Model Context Protocol）集成与使用
+- [x] MCP（Model Context Protocol）集成与使用 → 学习笔记 04-mcp-integration.md
 - [x] 多模型切换策略（不同任务选择不同模型）→ ai-coding-workflow Skill
 
 ### 实践项目
