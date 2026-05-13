@@ -112,26 +112,26 @@
 - 构建可扩展的多工具 Agent
 
 ### 知识清单
-- [ ] Function Calling 机制（OpenAI / Claude 的实现差异）
-- [ ] Tool 定义与 Schema 设计（JSON Schema, 参数校验）
-- [ ] Agent 循环（Observe → Think → Act → Observe）
-- [ ] ReAct 模式实现
-- [ ] Plan-and-Execute 模式
-- [ ] 多 Agent 协作（Supervisor, Sequential, Hierarchical）
-- [ ] 工具安全性（沙箱执行, 权限控制, 确认机制）
-- [ ] 对话记忆与状态管理（短期/长期记忆）
-- [ ] LangChain / LangGraph Agent 框架
-- [ ] CrewAI / AutoGen 多 Agent 框架
+- [x] Function Calling 机制（OpenAI / Claude 的实现差异）
+- [x] Tool 定义与 Schema 设计（JSON Schema, 参数校验）
+- [x] Agent 循环（Observe → Think → Act → Observe）
+- [x] ReAct 模式实现
+- [x] Plan-and-Execute 模式
+- [x] 多 Agent 协作（Supervisor, Sequential, Hierarchical）
+- [x] 工具安全性（沙箱执行, 权限控制, 确认机制）
+- [x] 对话记忆与状态管理（短期/长期记忆）
+- [x] LangChain / LangGraph Agent 框架
+- [x] CrewAI / AutoGen 多 Agent 框架
 
 ### 实践项目
-1. 实现一个带工具的 Agent（网页搜索 + 代码执行 + 文件操作）
-2. 用 LangGraph 构建一个有状态的工作流 Agent
-3. 构建一个多 Agent 协作系统（如：研究员 + 编辑 + 审核员）
+1. ✅ 实现交互式 ReAct Agent（知识库检索 + 数学计算 + 当前时间，流式输出）
+2. ✅ Agent 记忆管理（Token 追踪 + 自动摘要压缩 + /stats /history /clear 指令）
+3. 🚧 QQ 群机器人接入 DeepSeek（代码已完成，待部署 NapCat）
 
 ### 交付标准
-- 能设计和实现自定义 Tool
-- 有一个可运行的多工具 Agent
-- 理解 Agent 的失败模式与防护策略
+- ✅ 能设计和实现自定义 Tool
+- ✅ 有一个可运行的多工具 Agent
+- ✅ 理解 Agent 的失败模式与防护策略
 
 ---
 
@@ -236,7 +236,9 @@ AI/
 | 2026-05-12 | 阶段1 | Skills 体系设计（10 个全局 Skill） | 覆盖全栈开发全链路 |
 | 2026-05-12 | 阶段2 | LLM API 集成知识清单 + 架构总览 | DeepSeek 实践 + 8 篇笔记 |
 | 2026-05-13 | 阶段3 | RAG 系统全链路知识清单 + 架构总览 | 11 篇笔记，架构层理解 |
+| 2026-05-13 | 阶段4 | Agent 与 Tool Use 知识清单 + 实操 | 11 篇笔记 + ReAct Agent 实操 + 记忆管理 |
+| 2026-05-13 | 番外 | QQ Bot 接入 DeepSeek | 代码完成，待部署 NapCat + Grok/图片生成待办 |
 
 ---
 
-*最后更新：2026-05-12*
+*最后更新：2026-05-13*
