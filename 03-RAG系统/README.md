@@ -21,3 +21,18 @@
 | 9 | 引用追溯与来源标注 | 完成 | [09-citation-and-source.md](notes/09-citation-and-source.md) |
 | 10 | 评估体系 | 完成 | [10-evaluation.md](notes/10-evaluation.md) |
 | 11 | **架构总览** | 完成 | [11-architecture-overview.md](notes/11-architecture-overview.md) |
+
+## 实践项目
+
+| 项目 | 状态 | 代码 |
+|------|------|------|
+| 文档知识库（MD 导入 + 语义检索 + 交互问答） | 完成 | rag-app/src/01~04 |
+| Advanced RAG（Multi-query + RRF 融合） | 完成 | rag-app/src/05-multi-query.ts |
+| RAG 评估管线（Recall@3 + Faithfulness 自动评估） | 完成 | rag-app/src/06-evaluation.ts |
+
+## 评估结果
+
+```
+Recall@3:      8/8 = 100.0%
+Faithfulness:  1.00 / 1.00
+```
