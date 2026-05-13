@@ -1,0 +1,26 @@
+{
+  "name": "rag-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "index": "tsx src/01-indexing.ts",
+    "search": "tsx src/02-search.ts",
+    "chat": "tsx src/03-rag-chat.ts",
+    "interactive": "tsx src/04-interactive.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.33.0",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "openai": "^6.37.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.7.0",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.3"
+  }
+}

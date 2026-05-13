@@ -82,16 +82,16 @@
 - 能构建生产级知识库问答系统
 
 ### 知识清单
-- [ ] RAG 架构全景（Naive RAG → Advanced RAG → Modular RAG）
-- [ ] 文档处理（加载, 解析, 清洗 — PDF/Markdown/HTML/代码）
-- [ ] 文本分块策略（固定大小, 语义分块, 递归分块）
-- [ ] Embedding 模型（OpenAI, Cohere, BGE, 本地模型）
-- [ ] 向量数据库（Pinecone / Weaviate / pgvector / Chroma）
-- [ ] 检索策略（相似度搜索, 混合检索, MMR）
-- [ ] 重排序（Reranker）与结果过滤
-- [ ] Query 改写与分解（HyDE, Step-back, Multi-query）
-- [ ] 引用追溯与来源标注
-- [ ] 评估体系（Faithfulness, Relevance, RAGAS）
+- [x] RAG 架构全景（Naive RAG → Advanced RAG → Modular RAG）
+- [x] 文档处理（加载, 解析, 清洗 — PDF/Markdown/HTML/代码）
+- [x] 文本分块策略（固定大小, 语义分块, 递归分块）
+- [x] Embedding 模型（OpenAI, Cohere, BGE, 本地模型）
+- [x] 向量数据库（Pinecone / Weaviate / pgvector / Chroma）
+- [x] 检索策略（相似度搜索, 混合检索, MMR）
+- [x] 重排序（Reranker）与结果过滤
+- [x] Query 改写与分解（HyDE, Step-back, Multi-query）
+- [x] 引用追溯与来源标注
+- [x] 评估体系（Faithfulness, Relevance, RAGAS）
 
 ### 实践项目
 1. 构建一个文档知识库（支持 PDF/MD 导入 + 语义检索）
@@ -235,6 +235,7 @@ AI/
 | 2026-05-12 | 启动 | 建立学习路径 | 聚焦 AI 应用开发 |
 | 2026-05-12 | 阶段1 | Skills 体系设计（10 个全局 Skill） | 覆盖全栈开发全链路 |
 | 2026-05-12 | 阶段2 | LLM API 集成知识清单 + 架构总览 | DeepSeek 实践 + 8 篇笔记 |
+| 2026-05-13 | 阶段3 | RAG 系统全链路知识清单 + 架构总览 | 11 篇笔记，架构层理解 |
 
 ---
 
